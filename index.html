@@ -18,7 +18,7 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
 
 	<!-- Stylesheets -->
 	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -38,8 +38,8 @@
 		<nav id="navbar" class="navbar nav-menu">
 			<ul>
 				<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-				<li><a href="#events" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Events</span></a></li>
-				<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+				<li><a href="#gallery" class="nav-link scrollto"><i class='bx bx-photo-album'></i> <span>Gallery</span></a></li>
+				<li><a href="#upcoming-events" class="nav-link scrollto"><i class='bx bx-calendar'></i> <span>Upcoming Events</span></a></li>
 				<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
 				<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
 				<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
@@ -63,224 +63,197 @@
 	<!-- End Hero -->
 
 	<main id="main">
-		<!-- ======= Events Section ======= -->
-		<section id="events" class="portfolio section-bg">
+		<!-- ======= Gallery Section ======= -->
+		<section id="gallery" class="portfolio section-bg">
 			<div class="container" data-aos="fade-up">
 				<div class="section-title">
-					<h2>Events & Activities</h2>
+					<h2>Gallery</h2>
 					<p>The ICT Club of Cosmos College plays an essential role in enriching the academic experience of students by not only providing opportunities for hands-on learning and skill development but also serves as a platform for fostering a passion for technology and innovation.</p>
 				</div>
 				<div class="row">
 					<div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
 						<ul id="portfolio-flters">
 							<li data-filter="*" class="filter-active">All</li>
-							<li data-filter=".filter-app">ICT Fest</li>
-							<li data-filter=".filter-card">Awareness Program</li>
-							<li data-filter=".filter-web">Competitions</li>
+							<li data-filter=".filter-ict-fest">ICT Fest</li>
+							<li data-filter=".filter-awareness-program">Awareness Program</li>
+							<li data-filter=".filter-competitions">Competitions</li>
+							<li data-filter=".filter-entertainment">Entertainment</li>
 						</ul>
 					</div>
 				</div>
 		
 				<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-awareness-program">
 						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+							<img src="assets/img/gallery/cybersecurity-awareness-pathshala-1.jpg" class="img-fluid" alt="Cybersecurity Awareness Program @ Pathshala Nepal School">
 							<div class="portfolio-info">
-								<h4>App 1</h4>
+								<h4>Cybersecurity Awareness Program</h4>
+								<p>Pathshala Nepal School</p>
+								<div class="portfolio-links">
+									<a href="assets/img/gallery/cybersecurity-awareness-pathshala-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cybersecurity Awareness Program @ Pathshala Nepal School"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Event Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-lg-4 col-md-6 portfolio-item filter-competitions">
+						<div class="portfolio-wrap">
+							<img src="assets/img/gallery/tech-talks-3.jpg" class="img-fluid" alt="Tech Talks 2023">
+							<div class="portfolio-info">
+								<h4>Tech Talks 2023</h4>
+								<p>STEM Presentation Competition</p>
+								<div class="portfolio-links">
+									<a href="assets/img/gallery/tech-talks-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tech Talks 2023 with Bibek Koirala as Guest Speaker"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Event Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 portfolio-item filter-competitions">
+						<div class="portfolio-wrap">
+							<img src="assets/img/gallery/ict-fest-1.jpg" class="img-fluid" alt="Robo Football">
+							<div class="portfolio-info">
+								<h4>Robo Football</h4>
+								<p>Robo Football during ICT Fest 2022</p>
+								<div class="portfolio-links">
+									<a href="assets/img/gallery/ict-fest-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Robo Football during ICT Fest 2022"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Event Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-lg-4 col-md-6 portfolio-item filter-ict-fest">
+						<div class="portfolio-wrap">
+							<img src="assets/img/gallery/ict-fest-3.jpg" class="img-fluid" alt="Engineers Thela Stand @ ICT Fest">
+							<div class="portfolio-info">
+								<h4>Engineers Thela Stand @ ICT Fest</h4>
+								<p>The best date is a pani puri date!</p>
+								<div class="portfolio-links">
+									<a href="assets/img/gallery/ict-fest-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Engineers Thela Stand @ ICT Fest"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Engineers Thela Stand @ ICT Fest"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-lg-4 col-md-6 portfolio-item filter-entertainment filter-ict-fest">
+						<div class="portfolio-wrap">
+							<img src="assets/img/gallery/ict-fest-2.jpg" class="img-fluid" alt="Traditional Dance">
+							<div class="portfolio-info">
+								<h4>Traditional Dance @ ICT Fest</h4>
+								<p></p>
+								<div class="portfolio-links">
+									<a href="assets/img/gallery/ict-fest-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Traditional Dance"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Traditional Dance"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-lg-4 col-md-6 portfolio-item filter-competitions">
+						<div class="portfolio-wrap">
+							<img src="assets/img/gallery/coding-competition-1.jpg" class="img-fluid" alt="Coding Competition 2022">
+							<div class="portfolio-info">
+								<h4>Coding Competition 2022</h4>
 								<p>App</p>
 								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+									<a href="assets/img/gallery/coding-competition-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Coding Competition 2022"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Coding Competition 2022"><i class="bx bx-link"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
 		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-awareness-program">
 						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+							<img src="assets/img/gallery/cybersecurity-awareness-kailali-1.jpg" class="img-fluid" alt="Cybersecurity Awareness Program at Kailali">
 							<div class="portfolio-info">
-								<h4>Web 3</h4>
-								<p>Web</p>
+								<h4>Cybersecurity Awareness Program</h4>
+								<p>Conducted at Schools in Kailali District</p>
 								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+									<a href="assets/img/gallery/cybersecurity-awareness-kailali-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cybersecurity Awareness Program at Kailali"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Cybersecurity Awareness Program at Kailali"><i class="bx bx-link"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
 		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-entertainment filter-ict-fest">
 						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+							<img src="assets/img/gallery/ict-fest-4.jpg" class="img-fluid" alt="Singing songs">
 							<div class="portfolio-info">
-								<h4>App 2</h4>
-								<p>App</p>
+								<h4>Musical Performances</h4>
+								<p>Musical Performances by Cosmos Students</p>
 								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+									<a href="assets/img/gallery/ict-fest-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Musical Performances"><i class="bx bx-plus"></i></a>
+									<a href="event-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Musical Performances"><i class="bx bx-link"></i></a>
 								</div>
 							</div>
 						</div>
 					</div>
-		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-							<div class="portfolio-info">
-								<h4>Card 2</h4>
-								<p>Card</p>
-								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-							<div class="portfolio-info">
-								<h4>Web 2</h4>
-								<p>Web</p>
-								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-							<div class="portfolio-info">
-								<h4>App 3</h4>
-								<p>App</p>
-								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-							<div class="portfolio-info">
-								<h4>Card 1</h4>
-								<p>Card</p>
-								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-							<div class="portfolio-info">
-								<h4>Card 3</h4>
-								<p>Card</p>
-								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-							<div class="portfolio-info">
-								<h4>Web 3</h4>
-								<p>Web</p>
-								<div class="portfolio-links">
-									<a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-									<a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-		
+
 				</div>
 		
 			</div>
 		</section>
 		<!-- End Events Section -->
 
-		<!-- ======= Resume Section ======= -->
-		<section id="resume" class="resume">
+		<!-- ======= Upcoming Events Section ======= -->
+		<section id="upcoming-events" class="upcoming-events">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
-					<h2>Resume</h2>
-					<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					<h2>Upcoming Events</h2>
+					<p>Here are planned events that will be organized by ICT Club.</p>
 				</div>
-				
+
 				<div class="row">
 					<div class="col-lg-6">
-						<h3 class="resume-title">Sumary</h3>
-						<div class="resume-item pb-0">
-							<h4>Brandon Johnson</h4>
-							<p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-							<ul>
-								<li>Portland par 127,Orlando, FL</li>
-								<li>(123) 456-7891</li>
-								<li>alice.barkley@example.com</li>
-							</ul>
+						<h3 class="upcoming-event-title">Cosmo Fest 2023</h3>
+						<div class="upcoming-event-item">
+							<h4>Recursion n=1</h4>
+							<h5>2023 December 16</h5>
+							<p><em>The "Recursion n=1" hackathon is an exciting and innovative 24-hour event designed to foster creativity, problem-solving, and collaboration among students. Participants are encouraged to tackle challenging projects that may involve machine learning, artificial intelligence, software development, hardware integration, and more.</em></p>
 						</div>
-
-						<h3 class="resume-title">Education</h3>
-						<div class="resume-item">
-							<h4>Master of Fine Arts &amp; Graphic Design</h4>
-							<h5>2015 - 2016</h5>
-							<p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-							<p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+						<div class="upcoming-event-item">
+							<h4>c05m05 CTF</h4>
+							<h5>2023 December 21, 22</h5>
+							<p><em>The "c05m05 CTF" competition is an Attack-Defend Capture The Flag (CTF) contest, where participants engage in an intense cybersecurity challenge. The primary objective is to exploit vulnerabilities in target systems while simultaneously defending one's own infrastructure from attacks.</em></p>
 						</div>
-						<div class="resume-item">
-							<h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-							<h5>2010 - 2014</h5>
-							<p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-							<p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+						<div class="upcoming-event-item">
+							<h4>Crack Code 2023</h4>
+							<h5>2023 December 23</h5>
+							<p><em>"Crack Code" is a competitive programming competition that challenges participants to solve complex algorithmic and coding problems within a limited time frame. Participants aim to write efficient and correct code to solve a set of challenging computational problems, often involving data structures, mathematics, and algorithm design.</em></p>
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<h3 class="resume-title">Professional Experience</h3>
-						<div class="resume-item">
-							<h4>Senior graphic design specialist</h4>
-							<h5>2019 - Present</h5>
-							<p><em>Experion, New York, NY </em></p>
-							<ul>
-								<li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-								<li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-								<li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-								<li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-							</ul>
+						<h3 class="upcoming-event-title">Training</h3>
+						<div class="upcoming-event-item">
+							<h4>Web Dev. Bootcamp</h4>
+							<h5>2023 November 26 - December 1</h5>
+							<p><em>An intensive and hands-on program designed to equip participants with the essential skills and knowledge required for modern web development. Throughout the bootcamp, students delve into a wide range of topics, including HTML, CSS, JavaScript, web frameworks, and front-end/back-end development.</em></p>
 						</div>
-						<div class="resume-item">
-							<h4>Graphic design specialist</h4>
-							<h5>2017 - 2018</h5>
-							<p><em>Stepping Stone Advertising, New York, NY</em></p>
-							<ul>
-								<li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-								<li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-								<li>Recommended and consulted with clients on the most appropriate graphic design</li>
-								<li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-							</ul>
+						<div class="upcoming-event-item pb-0">
+							<h4>Git Workshop</h4>
+							<h5>2023 December 4</h5>
+							<p><em>The "Git workshop" is a focused session where participants learn the fundamentals of version control and collaboration using Git, a widely used distributed version control system. During the workshop, attendees are introduced to key Git concepts, such as repositories, branching, merging, and resolving conflicts.</em></p>
+						</div>
+						<h3 class="upcoming-event-title">Activities</h3>
+						<div class="upcoming-event-item">
+							<h4>KU Supercomputer Visit</h4>
+							<h5>2024 January</h5>
+							<p><em>During this visit to Kathmandu University's supercomputer, students have the opportunity to explore and learn about the world of supercomputing, witnessing firsthand the massive computational power and infrastructure that drives scientific research, data analysis, and simulations. </em></p>
 						</div>
 					</div>
 				</div>
 
 			</div>
 		</section>
-		<!-- End Resume Section -->
+		<!-- Upcoming Events Section -->
 
 		<!-- ======= Services Section ======= -->
 		<section id="services" class="services">

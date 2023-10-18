@@ -443,9 +443,9 @@ section {
 
 
 /*--------------------------------------------------------------
-# Resume
+# Upcoming Events
 --------------------------------------------------------------*/
-.resume .resume-title {
+.upcoming-events .upcoming-event-title {
 	font-size: 26px;
 	font-weight: 700;
 	margin-top: 20px;
@@ -453,14 +453,14 @@ section {
 	color: #45505b;
 }
 
-.resume .resume-item {
+.upcoming-events .upcoming-event-item {
 	padding: 0 0 20px 20px;
 	margin-top: -2px;
 	border-left: 2px solid var(--clr-ict-blue);
 	position: relative;
 }
 
-.resume .resume-item h4 {
+.upcoming-events .upcoming-event-item h4 {
 	line-height: 18px;
 	font-size: 18px;
 	font-weight: 600;
@@ -470,7 +470,7 @@ section {
 	margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.upcoming-events .upcoming-event-item h5 {
 	font-size: 16px;
 	background: #f7f8f9;
 	padding: 5px 15px;
@@ -479,19 +479,19 @@ section {
 	margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.upcoming-events .upcoming-event-item ul {
 	padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.upcoming-events .upcoming-event-item ul li {
 	padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.upcoming-events .upcoming-event-item:last-child {
 	padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.upcoming-events .upcoming-event-item::before {
 	content: "";
 	position: absolute;
 	width: 16px;
@@ -609,12 +609,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
 	font-size: 20px;
-	color: #45505b;
+	color: #000;
 	font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-	color: #45505b;
+	color: #000;
 	font-size: 14px;
 	text-transform: uppercase;
 	padding: 0;
