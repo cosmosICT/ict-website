@@ -235,7 +235,7 @@ var __webpack_exports__ = {};
 	* MapBox
 	*/
 	const coordinates = [85.320851,27.6555195];
-	mapboxgl.accessToken = 'pk.eyJ1IjoiaWN0Y2x1YiIsImEiOiJjbG52YzljM2kwZGd6MnFxaDR2b29zanZ0In0.fzXZFxfREFZ-Xoj6EFD2gw';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiaWN0Y2x1YiIsImEiOiJjbG52Y2VsancwbG0wMmxubHNyNTQ3Mjh6In0.w_OGpJbbOJy5H3hbvlgigQ';
 	const map = new mapboxgl.Map({
 	container: 'map', // container ID
 	style: 'mapbox://styles/ictclub/clnvcc3no000v01r2fuehh9a3', // style URL
